@@ -30,6 +30,21 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 ---
 
+📁 Project Structure
+
+🏗️ AAD2-Final-Project/
+├── 🌐 eureka-server/
+├── ⚙️ config-server/  
+├── 🚪 api-gateway/
+├── 🅿️ parking-space-service/
+├── 🚙 vehicle-service/
+├── 👤 user-service/
+├── 💳 payment-service/
+├── 📚 docs/screenshots/
+└── 📋 postman_collection.json
+
+---
+
 # 🧰 **Tech Stack**
 
 **Spring Components Used:**
