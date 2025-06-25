@@ -1,54 +1,106 @@
-🚗 Smart Parking Management System
+# 🚗 **Smart Parking Management System**
 
-🎯 Overview
-The Smart Parking Management System addresses urban parking challenges through intelligent space allocation and management. The platform enables drivers to locate and reserve parking spaces while providing owners with dynamic management tools and secure payment processing.
+# 🎯 **Overview**
 
-Infrastructure Services
+The **Smart Parking Management System (SPMS)** addresses urban parking challenges through intelligent space allocation and dynamic management. The platform enables drivers to locate and reserve parking spaces in real time, while providing parking space owners with tools for live monitoring, configuration, and secure payment processing.
 
-🌐 Eureka Server - Service registry and discovery
-⚙️ Config Server - Centralized configuration management
-🚪 API Gateway - Request routing and load balancing
+---
 
-Business Services
+# 🛠️ **Infrastructure Services**
 
-🅿️ Parking Space Service - Space availability and reservations
-🚙 Vehicle Service - Vehicle registration and tracking
-👤 User Service - Authentication and profile management
-💳 Payment Service - Transaction processing and receipts
+- 🌐 **Eureka Server** – Service registry and discovery  
+- ⚙️ **Config Server** – Centralized configuration management  
+- 🚪 **API Gateway** – Request routing and load balancing
 
-🛠️ Tech Stack
-Primary framework uses Spring Boot with Spring Cloud components including Eureka for service discovery, Config Server for configuration management, and Gateway for API routing. Optional Node.js Express or Python Flask may be used for specific services.
+---
 
-📁 Project Structure
-🏗️ AAD2-Final-Project/
+# 💼 **Business Services**
+
+- 🅿️ **Parking Space Service** – Space availability and reservation logic  
+- 🚙 **Vehicle Service** – Vehicle registration, tracking, and entry/exit simulation  
+- 👤 **User Service** – Authentication, profile management, and history  
+- 💳 **Payment Service** – Mock payment validation and receipt generation
+
+---
+
+# 🧰 **Tech Stack**
+
+> The system is built using **Spring Boot** and **Spring Cloud**.  
+Optional microservices may also use:
+- Node.js (Express)
+- Python (Flask)
+
+**Spring Components Used:**
+- Spring Boot
+- Spring Cloud Config
+- Spring Cloud Eureka
+- Spring Cloud Gateway
+- Spring Web
+
+---
+
+# 📁 **Project Structure**
+
+AAD2-Final-Project/
 ├── 🌐 eureka-server/
-├── ⚙️ config-server/  
+├── ⚙️ config-server/
 ├── 🚪 api-gateway/
 ├── 🅿️ parking-space-service/
 ├── 🚙 vehicle-service/
 ├── 👤 user-service/
 ├── 💳 payment-service/
-├── 📚 docs/screenshots/
-└── 📋 postman_collection.json
+├── 📚 docs/
+│ └── screenshots/
+│ └── eureka_dashboard.png
+├── 📋 postman_collection.json
+└── README.md
+---
 
-🚀 Setup
-Prerequisites: Java 11+, Maven 3.6+
-Start Order:
+# 🚀 **Setup & Run**
 
-Eureka Server (port 8761)
-Config Server (port 8888)
-Business services (ports 8081-8084)
-API Gateway (port 8080)
+**🔧 Prerequisites:**
+- Java 11+
+- Maven 3.6+
 
-Verification: Access Eureka Dashboard at http://localhost:8761
+**Start Order:**
+1. 🌐 Eureka Server – `http://localhost:8761`
+2. ⚙️ Config Server – `http://localhost:8888`
+3. 🅿️ 🚙 👤 💳 Business Services – `ports 8081 - 8084`
+4. 🚪 API Gateway – `http://localhost:8080`
 
-✨ Features
-The system provides real-time parking space search and reservation, dynamic status updates through manual or IoT integration, secure payment processing with digital receipts, vehicle entry/exit tracking simulation, and comprehensive booking history with analytics.
+**✅ Verification:**
+- Open Eureka Dashboard: [http://localhost:8761](http://localhost:8761)
+- All services should be visible and registered
 
-🧪 Testing
-Complete API validation through Postman collections testing all microservice endpoints, error handling, and service integration via the API Gateway.
-📋 Resources
+---
 
-📋 Postman Collection
-Show Image
+# ✨ **Features**
 
+- 🔎 Real-time search for parking spaces  
+- 📡 Dynamic updates via manual or IoT status  
+- 💳 Secure payment simulation with digital receipts  
+- 🚗 Vehicle tracking and simulated entry/exit  
+- 📜 Booking history and user logs  
+- 📊 Zone-wise and owner-wise usage tracking
+
+---
+
+# 🧪 **API Testing**
+
+- ✅ All endpoints validated with **Postman**  
+- ❗ Thorough error handling and edge case testing  
+- 🔁 Verified service-to-service communication via API Gateway
+
+---
+
+# 📋 **Resources**
+
+- [📋 Postman Collection](./postman_collection.json)  
+- ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
+
+---
+
+# 👨‍💻 **Author**
+
+**Dasun Wijayathilaka**  
+📍 Colombo, Sri Lanka  
