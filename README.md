@@ -1,12 +1,12 @@
-# 🚗 **Smart Parking Management System**
+# 🚗 Smart Parking Management System
 
-# 🎯 **Overview**
+## 🎯 Overview
 
 The **Smart Parking Management System (SPMS)** addresses urban parking challenges through intelligent space allocation and dynamic management. The platform enables drivers to locate and reserve parking spaces in real time, while providing parking space owners with tools for live monitoring, configuration, and secure payment processing.
 
 ---
 
-# 🛠️ **Infrastructure Services**
+## 🛠️ Infrastructure Services
 
 - 🌐 **Eureka Server** – Service registry and discovery  
 - ⚙️ **Config Server** – Centralized configuration management  
@@ -14,25 +14,16 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 ---
 
-# 📋 **Resources**
+## 📋 Resources
 
-- [📋 Postman Collection](./postman_collection.json)
-
-- ![Eureka Dashboard](https://github.com/dasunwijayathilaka/AAD-2-Final-Project/blob/main/docs/screenshots/eureka_dashboard1.png)
-- ![Eureka Dashboard](https://github.com/dasunwijayathilaka/AAD-2-Final-Project/blob/main/docs/screenshots/eureka_dashboard2.png)
+- [📋 Postman Collection](./postman_collection.json)  
+- ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
 
 ---
 
-# 💼 **Business Services**
+## 📁 Project Structure
 
-- 🅿️ **Parking Space Service** – Space availability and reservation logic  
-- 🚙 **Vehicle Service** – Vehicle registration, tracking, and entry/exit simulation  
-- 👤 **User Service** – Authentication, profile management, and history  
-- 💳 **Payment Service** – Mock payment validation and receipt generation
-
----
-
-🏗️ AAD2-Final-Project/
+AAD2-Final-Project/
 ├── 🌐 eureka-server/
 ├── ⚙️ config-server/
 ├── 🚪 api-gateway/
@@ -48,7 +39,16 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 ---
 
-# 🧰 **Tech Stack**
+## 💼 Business Services
+
+- 🅿️ **Parking Space Service** – Space availability and reservation logic  
+- 🚙 **Vehicle Service** – Vehicle registration, tracking, and entry/exit simulation  
+- 👤 **User Service** – Authentication, profile management, and history  
+- 💳 **Payment Service** – Mock payment validation and receipt generation
+
+---
+
+## 🧰 Tech Stack
 
 **Spring Components Used:**
 - Spring Boot
@@ -59,7 +59,7 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 ---
 
-# 🚀 **Setup & Run**
+## 🚀 Setup & Run
 
 **🔧 Prerequisites:**
 - Java 11+
@@ -77,25 +77,25 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 ---
 
-# ✨ **Features**
+## ✨ Features
 
-- 🔎 Real-time search for parking spaces  
-- 📡 Dynamic updates via manual or IoT status  
-- 💳 Secure payment simulation with digital receipts  
-- 🚗 Vehicle tracking and simulated entry/exit  
-- 📜 Booking history and user logs  
+- 🔎 Real-time search for parking spaces
+- 📡 Dynamic updates via manual or IoT status
+- 💳 Secure payment simulation with digital receipts
+- 🚗 Vehicle tracking and simulated entry/exit
+- 📜 Booking history and user logs
 - 📊 Zone-wise and owner-wise usage tracking
 
 ---
 
-# 🧪 **API Testing**
+## 🧪 API Testing
 
-- ✅ All endpoints validated with **Postman**  
+- ✅ All endpoints validated with **Postman**
 - 🔁 Verified service-to-service communication via API Gateway
 
 ---
 
-# 👨‍💻 **Author**
+## 👨‍💻 Author
 
 **Dasun Wijayathilaka**  
 📍 Colombo, Sri Lanka  
