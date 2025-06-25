@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: vehicle-service
+
+logging:
+  level:
+    lk.ijse.vehicleservice: DEBUG
+
+app:
+  vehicle:
+    max-vehicles-per-user: 5
+    allowed-vehicle-types: ["CAR", "MOTORCYCLE", "VAN"]
