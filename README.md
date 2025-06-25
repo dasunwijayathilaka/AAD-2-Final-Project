@@ -18,7 +18,7 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 - [📋 Postman Collection](./postman_collection.json)
 
--  📋 Eureka Dashboard
+-  📋 Eureka Dashboard - Open Eureka Dashboard: [http://localhost:8761](http://localhost:8761)
   
   ![Eureka Dashboard](./docs/screenshots/eureka_dashboard1.png)
   ![Eureka Dashboard](./docs/screenshots/eureka_dashboard2.png)
@@ -76,7 +76,6 @@ AAD2-Final-Project/
 4. 🚪 API Gateway – `http://localhost:8080`
 
 **✅ Verification:**
-- Open Eureka Dashboard: [http://localhost:8761](http://localhost:8761)
 - All services should be visible and registered
 
 ---
