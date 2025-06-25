@@ -14,6 +14,13 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 ---
 
+# 📋 **Resources**
+
+- [📋 Postman Collection](./postman_collection.json)  
+- ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
+
+---
+
 # 💼 **Business Services**
 
 - 🅿️ **Parking Space Service** – Space availability and reservation logic  
@@ -36,21 +43,6 @@ Optional microservices may also use:
 - Spring Cloud Eureka
 - Spring Cloud Gateway
 - Spring Web
-
----
-
-# 📁 Project Structure
-
-🏗️ AAD2-Final-Project/
-├── 🌐 eureka-server/
-├── ⚙️ config-server/  
-├── 🚪 api-gateway/
-├── 🅿️ parking-space-service/
-├── 🚙 vehicle-service/
-├── 👤 user-service/
-├── 💳 payment-service/
-├── 📚 docs/screenshots/
-└── 📋 postman_collection.json
 
 ---
 
@@ -88,13 +80,6 @@ Optional microservices may also use:
 - ✅ All endpoints validated with **Postman**  
 - ❗ Thorough error handling and edge case testing  
 - 🔁 Verified service-to-service communication via API Gateway
-
----
-
-# 📋 **Resources**
-
-- [📋 Postman Collection](./postman_collection.json)  
-- ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
 
 ---
 
