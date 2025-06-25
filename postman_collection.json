@@ -5,8 +5,9 @@
 		"description": "Complete API collection for SPMS microservice-based application including User Service, Vehicle Service, Parking Space Service, Payment Service, and Health Checks",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "40180822",
-		"_collection_link": "https://chamath-8044.postman.co/workspace/Smart-Parking-Management-System~d30c7a0c-4781-4c4a-bbb9-2ac5982e238e/collection/40180822-2e8757e2-100a-451e-ba1d-47eec4b13d15?action=share&source=collection_link&creator=40180822"
+		"_collection_link": "https://dasun-8044.postman.co/workspace/Smart-Parking-Management-System~d30c7a0c-4781-4c4a-bbb9-2ac5982e238e/collection/40180822-2e8757e2-100a-451e-ba1d-47eec4b13d15?action=share&source=collection_link&creator=40180822"
 	},
+
 	"item": [
 		{
 			"name": "Health Checks",
