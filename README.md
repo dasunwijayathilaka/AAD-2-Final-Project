@@ -32,11 +32,6 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 
 # 🧰 **Tech Stack**
 
-> The system is built using **Spring Boot** and **Spring Cloud**.  
-Optional microservices may also use:
-- Node.js (Express)
-- Python (Flask)
-
 **Spring Components Used:**
 - Spring Boot
 - Spring Cloud Config
