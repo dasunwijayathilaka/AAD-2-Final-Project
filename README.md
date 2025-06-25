@@ -73,7 +73,6 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 # 🧪 **API Testing**
 
 - ✅ All endpoints validated with **Postman**  
-- ❗ Thorough error handling and edge case testing  
 - 🔁 Verified service-to-service communication via API Gateway
 
 ---
