@@ -41,19 +41,21 @@ Optional microservices may also use:
 
 # 📁 **Project Structure**
 
-AAD2-Final-Project/
-├── 🌐 eureka-server/
-├── ⚙️ config-server/
-├── 🚪 api-gateway/
-├── 🅿️ parking-space-service/
-├── 🚙 vehicle-service/
-├── 👤 user-service/
-├── 💳 payment-service/
-├── 📚 docs/
-│ └── screenshots/
-│ └── eureka_dashboard.png
-├── 📋 postman_collection.json
-└── README.md
+SPMS-Project/
+├── config-server/              # Spring Cloud Config Server
+├── eureka-server/              # Eureka Service Registry
+├── api-gateway/                # Spring Cloud Gateway
+├── parking-service/            # Microservice: Parking management
+├── vehicle-service/            # Microservice: Vehicle tracking
+├── user-service/               # Microservice: User and owner data
+├── payment-service/            # Microservice: Payment simulation
+├── docs/
+│   └── screenshots/
+│       └── eureka_dashboard.png
+├── postman_collection.json     # Exported Postman Collection
+├── README.md                   # Required project references and description
+└── pom.xml / build.gradle      # Root project build config (if using multi-module)
+
 ---
 
 # 🚀 **Setup & Run**
