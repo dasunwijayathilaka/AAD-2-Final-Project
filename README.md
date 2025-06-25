@@ -17,7 +17,7 @@ The **Smart Parking Management System (SPMS)** addresses urban parking challenge
 # 📋 **Resources**
 
 - [📋 Postman Collection](./postman_collection.json)  
-- ![Eureka Dashboard](./docs/screenshots/eureka_dashboard.png)
+- ![Eureka Dashboard](https://github.com/dasunwijayathilaka/AAD-2-Final-Project/blob/main/docs/screenshots/eureka_dashboard1.png)
 
 ---
 
